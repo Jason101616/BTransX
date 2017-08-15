@@ -1,7 +1,7 @@
 # BTransX
 The implementation of BTransE and BTransR for Cross-Lingual Taxonomy Alignment.
 ## Data input
-Datasets are required in the following format,
+Datasets are required in the following format, all entities and relations can be represented by ids. We call id the index of entities and relations.
 
 ZH triples: [ZH_h, ZH_t, ZH_r]
 
