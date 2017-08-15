@@ -3,9 +3,9 @@ The implementation of BTransE and BTransR for Cross-Lingual Taxonomy Alignment.
 ## Data input
 Datasets are required in the following format, all entities and relations can be represented by ids. We call id the index of entities and relations.
 
-ZH triples: [ZH_h, ZH_t, ZH_r]
+ZH triples: [ZH_h, ZH_t, ZH_r], where ZH_h, ZH_t, ZH_r is the head entity, tail entity, relation of a Chinese triple respectively.
 
-EN triples: [EN_h, EN_t, EN_r]
+EN triples: [EN_h, EN_t, EN_r], where EN_h, EN_t, EN_r is the head entity, tail entity, relation of an English triple respectively.
 
 aligned triples: [[ZH_h, ZH_t, ZH_r, ZH_h_index, ZH_t_index, ZH_r_index, EN_h, EN_t, EN_r, EN_h_index, EN_t_index, EN_r_index], ..., ].
 
